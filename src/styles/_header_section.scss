@@ -1,8 +1,8 @@
 .header-section_container{
-    // background: url("../assets/headerBg.jpg");
-    // background-repeat: no-repeat;
-    // background-size: 100% 100%;
-    background: #023047;
+    background: url("../assets/headerBg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    // background: #023047;
     .header_container{
         padding: 38px 60px;
     
@@ -60,6 +60,10 @@
         .content_container{
             // width: 530px;
             color: #fff;
+
+            &>div:nth-child(2){
+                display: none;
+            }
 
             .we-help_header{
                 font-size: 6.4em;
@@ -166,6 +170,7 @@
         // background: url("../assets/headerBg.jpg");
         // background-repeat: no-repeat;
         // background-size: 100% 100%;
+        background-image: none;
         background: #023047;
         .header_container{
             padding: 10px 0;
@@ -245,6 +250,10 @@
             .content_container{
                 // width: 530px;
                 color: #fff;
+
+                &>div:nth-child(2){
+                    display: block;
+                }
     
                 .we-help_header{
                     font-size: 3.6em;

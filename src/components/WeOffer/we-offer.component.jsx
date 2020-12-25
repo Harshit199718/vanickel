@@ -28,7 +28,7 @@ function WeOffer(props) {
         <div className="d-flex flex-wrap justify-content-center">
           <div className="offer-column p-3 my-3">
             <div
-            className="offer d-flex flex-column justify-content-between"  
+            className={`offer d-flex flex-column justify-content-between ${protoType?"active-offer":""}`}  
             style={{position:protoType?"absolute":"static"}}
             >
               <div className="offer-details d-flex align-items-center mb-4"
@@ -68,7 +68,7 @@ function WeOffer(props) {
           </div>
           <div className="offer-column p-3 my-3">
             <div tabIndex="-1" 
-            className="offer d-flex flex-column justify-content-between" 
+            className={`offer d-flex flex-column justify-content-between ${supportScale?"active-offer":""}`} 
             style={{position:supportScale?"absolute":"static"}}
             onFocus={
               ()=>{
@@ -119,7 +119,7 @@ function WeOffer(props) {
           </div>
           <div className="offer-column  p-3 my-3">
             <div tabIndex="-1" 
-            className="offer d-flex flex-column justify-content-between" 
+            className={`offer d-flex flex-column justify-content-between ${legacyMigration?"active-offer":""}`} 
             style={{position:legacyMigration?"absolute":"static"}}
             onFocus={
               ()=>{
@@ -165,7 +165,7 @@ function WeOffer(props) {
           </div>
           <div className="offer-column p-3 my-3">
             <div tabIndex="-1" 
-            className="offer d-flex flex-column justify-content-between" 
+            className={`offer d-flex flex-column justify-content-between ${machine?"active-offer":""}`} 
             style={{position:machine?"absolute":"static"}}
             onFocus={
               ()=>{
@@ -213,7 +213,7 @@ function WeOffer(props) {
           </div>
           <div className="offer-column p-3 my-3">
             <div tabIndex="-1" 
-            className="offer d-flex flex-column justify-content-between" 
+            className={`offer d-flex flex-column justify-content-between ${blockChain?"active-offer":""}`} 
             style={{position:blockChain?"absolute":"static"}}
             onFocus={
               ()=>{
@@ -259,7 +259,7 @@ function WeOffer(props) {
           </div>
           <div className="offer-column p-3 my-3">
             <div tabIndex="-1" 
-            className="offer d-flex flex-column justify-content-between" 
+            className={`offer d-flex flex-column justify-content-between ${mobileapp?"active-offer":""}`} 
             style={{position:mobileapp?"absolute":"static"}}
             onFocus={
               ()=>{
