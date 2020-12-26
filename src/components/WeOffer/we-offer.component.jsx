@@ -39,7 +39,7 @@ function WeOffer(props) {
                   Prototype & MVP Development
                 </h3>
               </div>
-              <p className="detail" style={{height: protoType?"auto":"0",transition:"1s"}}>
+              <p className="detail" style={{maxHeight: protoType?"1000px":"0",transition:".5s"}}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Beatae, sit cupiditate voluptates ullam quidem id sequi quia.
                 Sequi eius praesentium suscipit error molestiae accusamus? Dolor
@@ -85,7 +85,7 @@ function WeOffer(props) {
                 <img className="offer-img" src={support} alt="" />
                 <h3 className="offer-title m-0 ml-3">Support for Scale</h3>
               </div>
-              <p className="detail" style={{height: supportScale?"auto":"0",transition:"1s"}}>
+              <p className="detail" style={{maxHeight: supportScale?"1000px":"0",transition:".5s"}}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Beatae, sit cupiditate voluptates ullam quidem id sequi quia.
                 Sequi eius praesentium suscipit error molestiae accusamus? Dolor
@@ -136,7 +136,7 @@ function WeOffer(props) {
                 <img className="offer-img" src={legacy} alt="" />
                 <h3 className="offer-title m-0 ml-3">Legacy Migration</h3>
               </div>
-              <p className="detail" style={{height: legacyMigration?"auto":"0",transition:"1s"}}>
+              <p className="detail" style={{maxHeight: legacyMigration?"1000px":"0",transition:".5s"}}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Beatae, sit cupiditate voluptates ullam quidem id sequi quia.
                 Sequi eius praesentium suscipit error molestiae accusamus? Dolor
@@ -184,7 +184,7 @@ function WeOffer(props) {
                   Machine Learning/ Deep Learning
                 </h3>
               </div>
-              <p className="detail" style={{height: machine?"auto":"0",transition:"1s"}}>
+              <p className="detail" style={{maxHeight: machine?"1000px":"0",transition:".5s"}}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Beatae, sit cupiditate voluptates ullam quidem id sequi quia.
                 Sequi eius praesentium suscipit error molestiae accusamus? Dolor
@@ -230,7 +230,7 @@ function WeOffer(props) {
                 <img className="offer-img" src={block} alt="" />
                 <h3 className="offer-title m-0 ml-3">Blockchain Development</h3>
               </div>
-              <p className="detail" style={{height: blockChain?"auto":"0",transition:"1s"}}>
+              <p className="detail" style={{maxHeight: blockChain?"1000px":"0",transition:".5s"}}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Beatae, sit cupiditate voluptates ullam quidem id sequi quia.
                 Sequi eius praesentium suscipit error molestiae accusamus? Dolor
@@ -278,7 +278,7 @@ function WeOffer(props) {
                   Mobile & WebApp Development
                 </h3>
               </div>
-              <p className="detail" style={{height: mobileapp?"auto":"0",transition:"1s"}}>
+              <p className="detail" style={{maxHeight: mobileapp?"1000px":"0",transition:".5s"}}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Beatae, sit cupiditate voluptates ullam quidem id sequi quia.
                 Sequi eius praesentium suscipit error molestiae accusamus? Dolor
